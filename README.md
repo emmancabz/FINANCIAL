@@ -1,4 +1,4 @@
-# FINANCE System
+# FINANCIAL
 
 ## How to Run
 
