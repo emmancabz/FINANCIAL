@@ -1,0 +1,28 @@
+.animate {
+  opacity: 0;
+  transition: opacity 1.2s ease, transform 1.2s ease;
+  will-change: opacity, transform;
+  pointer-events: none; /* prevent invisible elements blocking interactions */
+}
+
+.animate.fade-in-up {
+  transform: translateY(30px);
+}
+
+.animate.left-to-right {
+  transform: translateX(-50px);
+}
+
+.animate.right-to-left {
+  transform: translateX(50px);
+}
+
+.animate.show {
+  opacity: 1;
+  transform: translate(0, 0);
+  pointer-events: auto; /* re-enable pointer events when visible */
+}
+
+
+
+

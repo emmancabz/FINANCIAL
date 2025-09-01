@@ -1,0 +1,31 @@
+.btn-orange {
+  background: linear-gradient(135deg, #ffde59, #ff914d);
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-orange:hover {
+  background: linear-gradient(135deg, #ff914d, #ff4500); /* Darker Orange */
+  transform: scale(1.05); /* Slight scale effect */
+  box-shadow: 0 4px 10px rgba(255, 145, 77, 0.5); /* Soft glow */
+  color: #fff;
+}
+
+.btn-orange:active {
+  transform: scale(0.98); /* Slight press effect */
+}
+
+.bg-orange {
+  background: linear-gradient(135deg, #ffde59, #ff914d);
+}
+
+/* TEXT */
+
+.text-orange {
+  color: #fcaf40;
+}
+
+.text-dark {
+  color: #000000;
+}
